@@ -1,29 +1,39 @@
 /**
- * OOPSBannerApp UC4 - Render OOPS as Banner using String Array and Loop
+ * OOPSBannerApp UC5 - Render OOPS as Banner using Inline Array Initialization
  *
- * This use case improves upon UC3 by using a String array to store banner lines
- * and iterating through them with a for-each loop, eliminating hardcoded print
- * statements and improving modularity and reusability.
+ * This use case extends UC4 by defining and populating the String array in a more
+ * concise way at the time of declaration using String.join() method to create each
+ * line of the banner. This further enhances code readability and maintainability.
  *
  * @author Akshdeep Singh
- * @version 4.0
+ * @version 5.0
  */
+
+// Extend the user story 4 to further develop the OOPS Banner Application by
+// not only using String arrays to hold banner lines and printing them in a
+// loop. But also by defining and populating the array in a more concise way
+// at the time of declaration using String.join() method to create each line
+// of the banner.
+
+// Hint: Define and initialize the String array inline at the time of declaration
+
 public class OOPSBannerApp {
+    // Main method to run the banner display
     public static void main(String[] args) {
+        // Define String Array variable to hold the OOPS banner lines
+        // Each line represents a row in the banner for the letters O, O, P, S
+        String[] lines = {
+            String.join("", "      ***      ***      *****       ***** "),
+            String.join("", "     ** **    ** **    **   **    **      "),
+            String.join("", "    **   **  **   **   **   **   **       "),
+            String.join("", "    **   **  **   **   *****      ***     "),
+            String.join("", "    **   **  **   **   **            **   "),
+            String.join("", "     ** **    ** **    **             **  "),
+            String.join("", "      ***      ***     **        *****    ")
+        };
 
-        // 1. Define a String array with a size equal to the number of lines in the banner
-        String[] lines = new String[7];
-
-        // 2. Populate each index of the array with the corresponding banner line using String.join()
-        lines[0] = String.join("", "      ***   ", "   ***    ", "  *****   ", "  *****  ");
-        lines[1] = String.join("", "     ** **  ", "  ** **   ", " **   **  ", " **      ");
-        lines[2] = String.join("", "    **   ** ", " **   **  ", " **   **  ", " **      ");
-        lines[3] = String.join("", "    **   ** ", " **   **  ", " *****    ", "  *****  ");
-        lines[4] = String.join("", "    **   ** ", " **   **  ", " **       ", "      ** ");
-        lines[5] = String.join("", "     ** **  ", "  ** **   ", " **       ", " **   ** ");
-        lines[6] = String.join("", "      ***   ", "   ***    ", " **       ", "  *****  ");
-
-        // 3. Use a for-each loop to iterate through the array and print each line
+        // Use a loop to print each line of the banner to create the
+        // visual effect for the message "OOPS"
         for (String line : lines) {
             System.out.println(line);
         }
