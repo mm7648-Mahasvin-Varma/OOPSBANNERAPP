@@ -6,7 +6,7 @@
  * and efficient manner. The application retrieves and displays the "OOPS" banner
  * using a HashMap there by enhancing code organization and modularity.
  *
- * @author Akshdeep Singh
+ * @author MUDUNURI.MAHASVINVARMA
  * @version 8.0
  */
 
