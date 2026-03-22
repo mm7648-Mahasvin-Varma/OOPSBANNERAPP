@@ -4,7 +4,7 @@
  * This class demonstrates a simple Java application that displays the Object
  * Oriented Programming System (OOPS) acronym to the console.
  *
- * @author Akshdeep Singh
+ * @author MUDUNURI.MAHASVINVARMA
  * @version 2.0
  */
 public class OOPSBannerApp {
