@@ -5,7 +5,7 @@
  * and iterating through them with a for-each loop, eliminating hardcoded print
  * statements and improving modularity and reusability.
  *
- * @author Akshdeep Singh
+ * @author MUDUNURI.MAHASVINVARMA
  * @version 4.0
  */
 public class OOPSBannerApp {
