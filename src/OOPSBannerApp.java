@@ -5,7 +5,7 @@
  * letter's pattern through dedicated methods. This enhances code reusability and
  * maintainability by separating pattern generation logic from the main display logic.
  *
- * @author Akshdeep Singh
+ * @author MUDUNURI.MAHASVINVARMA
  * @version 6.0
  */
 
